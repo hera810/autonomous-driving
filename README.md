@@ -6,12 +6,20 @@
 suited for your selected task. You may perform targeted refinements—such as hyperparameter
 tuning, layer augmentation or removal, and optimizer adjustments—to optimize performance,
 provided these changes are documented and justified.
-• Dataset Usage: Load the dataset using the provided Google Drive path (Google Drive). For
-detailed steps, refer to the Instruction.
-• Submission Items: Submit a complete, executable codebase (e.g., a notebook or script) along
-with all necessary artifacts—trained model weights, sample outputs (images, videos, metrics),
-and any visualizations—that collectively demonstrate the end-to-end workflow and final results
-of your project.
+
+`dataset`
+- KITTY Dataset
+  Def.: The KITTI dataset is a widely used benchmark for autonomous driving research, providing high-quality real-world sensor data to evaluate computer vision and robotics algorithms under realistic driving conditions.
+Spec.: 7,481(train) / 7,518(test) images
+
+- Annotations
+Stereo Matching: Disparity maps and image pairs(left/right)
+Optical Flow: Pixel-wise motion vectors
+Visual Odometry: Vehicle trajectories
+2D/3D Object Detection & Tracking: 2D/3D bounding boxes and Labels
+Semantic Segmentation: Pixel-level class labels
+Calibration: Camera Intrinsics/Extrinsics and LiDAR Extrinsics
+
 
 
 `Overview`
