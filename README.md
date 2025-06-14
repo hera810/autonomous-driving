@@ -1,4 +1,5 @@
-# autonomous-driving
+# Depth Estimation and Object Detection for Autonomous Driving
+
 
 `Project Details`
 • Model Architecture & Adaptation: Identify and justify the choice of model architecture best
